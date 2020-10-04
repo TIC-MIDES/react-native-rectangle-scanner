@@ -59,7 +59,7 @@ export default class RectangleOverlay extends Component {
   };
 
   static defaultProps = {
-    rectangleDifferenceAllowance: 50,
+    rectangleDifferenceAllowance: 500,
     detectionCountBeforeCapture: 8,
     detectionCountBeforeUIChange: 3,
     detectedRectangle: false,
